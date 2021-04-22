@@ -1,3 +1,5 @@
+% Code written by Vignes Aravind
+% Contact: vignesharavindsb@gmail.com
 [file, pathname] = uigetfile({'*.jpg';'*.tif'});
 I = imread([pathname,file]);
 %J = histeq(I); figure; imshow (J);
