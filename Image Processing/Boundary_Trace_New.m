@@ -1,3 +1,5 @@
+% Code written by Vignesh Contact: vignesharavindsb@gmail.com
+% Try using different sensitivity for different images
 [file, pathname] = uigetfile('*.tif','Open first phase image');
 I = imread([pathname,file]);
 BW = imbinarize(I, 'adaptive', 'Sensitivity', 0.700, 'ForegroundPolarity', 'bright');
