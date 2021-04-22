@@ -1,3 +1,5 @@
+% Identify cells just from phase contrast images and save the binarizied cell for further morphology analysis
+% Code written by Vignesh Contact: vignesharavindsb@gmail.com
 [file, pathname] = uigetfile({'*.jpg';'*.tif'});
 I = imread([pathname,file]);
 %J = histeq(I); figure; imshow (J);
